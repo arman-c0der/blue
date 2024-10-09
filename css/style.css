@@ -1,0 +1,244 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*header start*/
+header{
+   /* border: 1px solid red;*/
+    background-color:#1B202E;
+}
+.wrapper{
+   /* border:1px solid red;*/
+    width:80%;
+    overflow: hidden;
+   /* background-color:1B202E ;*/
+    margin:0 auto;
+}
+.logo{
+   /* border:1px solid blue;*/
+    float:left;
+    width:20%;
+
+}
+.logo img{
+    width:100%;
+}
+menu{
+   /* border:1 px solid red;*/
+    width:70%;
+    float:right
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    list-style: none;
+    float:left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding:5px 15px;
+    display:block;
+    transition:.5s;
+    color:#777A84;
+}
+.menu ul li a:hover{
+    color:#346CAA;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image: url(../image/people.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 300px;
+}
+
+
+.banner-content{
+    margin-top:200px;
+    margin-bottom: 50px;
+    width:45%;
+   /* border:1px solid red;*/
+    
+}
+.banner-content p:first-child{
+    color:brown; 
+    font-size: 28px;
+} 
+.banner-content h1{
+    color:3577B8;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2){
+    color:brown;
+    font-size:18px;
+   }
+   .banner-content button{
+     border:none;
+     padding:10px 20px;
+     border-radius: 5px;
+     color:#5A5A5A;
+     text-transform: uppercase;
+     font-size: 16px;
+
+ }
+ .banner-content button span{
+    background-color: blue;
+    padding:4px 8px;
+    border-radius:50%;
+    color:white;
+    margin-left:10px;
+ }
+ /*banner end*/
+ /*service start*/
+
+ .service{
+    background-color: #1B2030;
+    padding:50px 0;
+    
+    
+ }
+ .single{
+   /* border:1px solid red;*/
+    width:29%;
+    padding:10px 20px;
+    float:left;
+
+ }
+ .title{
+   /* border:1px solid blue;*/
+    overflow: hidden;
+    height:100px;
+}
+ .icon{
+   /* border:1px solid red;*/
+    float:left;
+    width:28%;
+   
+ }
+ .icon img{
+    width:100%;
+ }
+ .icon-content{
+   /* border:1px solid red;*/
+    float:left;
+    width:70%;
+    height:90px;
+    padding-bottom:20px;
+    line-height: 0.8;
+   
+ }
+ .icon-content h1{
+    color:white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 0.5;
+ }
+ .icon-content h2{
+    color:#3674BE;
+    text-transform: capitalize;
+    line-height: 0.5;
+ }
+ .content{}
+ .content p{
+    color:white;
+    font-family: sans-serif;
+    line-height: 1.5;
+ }
+  /*service end*/
+  /*margin start*/
+  .margin{
+   /* border:1px solid blue;*/
+    background-color:#0D1018;
+  }
+  .sec1{
+    float:left;
+    width:29%;
+    padding:20px;
+   /* border:1px solid red;*/
+
+  }
+  .sec1 h2{
+    display:inline-block;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+  
+   
+  }
+  .sec1 span{
+    color:#20A1F1;
+  }
+  .sec1 p{
+    color:white;
+   
+  }
+  .contain2{
+    float:left;
+    width:20%;
+  /*  border:1px solid red;*/
+  }
+  .contain3{
+    width:77%;
+  /*  border:1px solid blue;*/
+    float:right;
+  }
+  /* .sec1{
+    float:left;
+    border:1px solid green;
+   }*/
+
+    #talkbubble {
+        width: 95%;
+        height: 140px;
+        padding:15px ;
+        background:rgb(23, 19, 57);
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+      #talkbubble:before {
+        content: "";
+        position: absolute;
+        right: 20%;
+        bottom:-36px;
+        width: 0;
+        height: 0;
+        border-left: -10px solid transparent;
+        border-right: 55px solid transparent;
+        border-top: 35px solid rgb(23, 19, 57);
+      }
+      .bottom{
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 0.5;
+      /*  border: 1px solid blue;*/
+        width:70%;
+      }
+      .bottom h3{
+        color:white;
+      }
+      .picture{
+        margin-top: 30px;
+       /* border:1px solid red;*/
+        float:left;
+        width:38%;
+       
+      }
+      .picture img{
+        width:100%;
+      }
+      .ocean{
+        margin-top: 30px;
+        line-height: 1;
+        float:right;
+       /* border:1px solid blue;*/
+        width:55%;
+      }
+      .ocean h2{
+        line-height: 0.2;
+      }
+     /*margin end*/
